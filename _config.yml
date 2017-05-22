@@ -14,7 +14,7 @@ name:				         site name
 title:               site title
 tagline:             'tagline'
 description:         'description'
-url:                 https://iaspirationi.github.io/
+url:                 https://iaspirationi.github.io
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
@@ -26,7 +26,7 @@ disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
   name:           	 your name
-  url:            	 your site url
+  url:            	 https://iaspirationi.github.io/
   facebook:          username
   twitter:           username
   google_plus:       username
@@ -50,3 +50,15 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+assets:
+  cache: true
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - assets/javascripts
+    - assets/css
+    - assets/images
+    - assets/images/hero
+    - assets/images/thumbnail
+    - images
